@@ -1,6 +1,7 @@
+
+@media screen and (max-width:640px) {
+
 body {
-    margin-left: 250px;
-    margin-right: 250px;
     background: url(../images/old_map/old_map.png);
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     
@@ -10,7 +11,9 @@ header {
     text-size-adjust: 50;
     font-family: 'Georgia', Times, Times New Roman, serif;
     background-color: #ffffff;
-    overflow: auto;   
+    border: 2px;
+    border-color: #666666;
+    overflow: auto;
 }
 
 section {
@@ -20,21 +23,20 @@ section {
     border-style: solid;
     margin-top: 30px;
     padding: 30px;
+    margin-left: 30;
+    margin-right: 30;
 }
 
 footer {
     background-color: #666666;
     color: #ffffff;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
     text-align: center;
     border-top: 10px;
     border-color: #4aaaa5;
     border-style: solid;        
     padding-top: 20px;
-    padding-bottom: 10px;    
+    padding-bottom: 10px;
+    width: 100%;   
 }
 
 h1 { 
@@ -48,17 +50,21 @@ h1 {
 }
 
 .heading {
-    width: 300px;
+    width: 100%;
     float: left;
     background-color: #4aaaa5;
     text-align: center;
-    
+        
 }
 
 .links1 {
-    float: right;
-    width: 40%;
-    margin-top: 30px;
+    float: left;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    border-bottom: 10px;
+    border-color: #666666;
 }
 
 .clearfix:after {
@@ -70,15 +76,12 @@ h1 {
 }
 
 .bodywrap {
-    width: 960px;
+    width: 600px;
+    margin: 0 auto;
 }
 
 .about {
     color: #4aaaa5;
-}
-
-article {
-    height: 400px;    
 }
 
 .Image1 {
@@ -173,9 +176,13 @@ article {
 }
 
 #shrek {
-    float: left;
-    width: 200px;
-    height: 200px;
-    margin-right: 10px;
+    width: 250px;
+    height: 250px;
     margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
 }
